@@ -21,7 +21,7 @@ const data = [
   name:"The Wild Oasis (Dashboard)",
   technology:["REACTQUERY", "REACT", "SUPABASE", "STYLED COMPONENT"],
   imagePath:img1,
-  description:"The Wild Oasis Admin Panel manages orders and bookings for luxury mountain cabins, ensuring a seamless experience for a serene and upscale getaway. NOTE: User and Pass is (admin) ",
+  description:"The Wild Oasis Admin Panel manages orders and bookings for luxury mountain cabins, ensuring a seamless experience. ",
   projectURL:"http://"
 },
 {
