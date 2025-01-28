@@ -20,7 +20,7 @@ function Profile({smallScreen}) {
         {
           opacity: 1,
           y: 0, // Final state: fully visible in place
-          fontSize: window.innerWidth <= 320 ? "18px" : "2rem",
+          fontSize: window.innerWidth <= 320 ? "18px" : "1.8rem",
           duration: 2,
           stagger: .4, // Stagger animation for each letter
           scrollTrigger: {
@@ -48,7 +48,7 @@ function Profile({smallScreen}) {
             </div>
     
             {/* Text reveal animation */}
-            <div className="w-full text-[20px] md:w-2/3 md:text-[1.8rem] relative font-['manrope']">
+            <div className="w-full text-[20px] md:w-2/3 md:text-[1.5rem] relative font-['manrope']">
               <div className="text-about flex md:h-[200px] flex-wrap relative">
                 {text.split("").map((char, index) => (
                   <span

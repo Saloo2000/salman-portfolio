@@ -26,7 +26,7 @@ function About({about}) {
     }
   }
   return (
-    <div ref={about} data-scroll data-scroll-speed="-0.4" className={`p-[2rem] md:rounded-t-[70px] rounded-t-[35px] relative z-[1] bg-black pb-[150px]`}>
+    <div ref={about} data-scroll data-scroll-speed="-0.4" className={`p-[2rem] md:rounded-t-[70px] rounded-t-[35px] md:mb-[12rem] relative z-[1] bg-black pb-[150px]`}>
       <div className="headings md:pt-[150px]">
 
        <div className='md:flex md:justify-between items-start'> 
