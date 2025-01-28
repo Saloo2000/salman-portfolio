@@ -35,7 +35,7 @@ function Profile({smallScreen}) {
       );
     },[]); 
   
-    const text =  "As a front-end connoisseur with a passion for React/Redux development, I have accumulated 2 years of hands-on experience in crafting modern web and web app solutions. My focus is on creating engaging user experiences that go beyond just interfaces. I excel as a collaborative team player, placing great emphasis on understanding project requirements thoroughly and delivering scalable, high-quality solutions."; // Text to animate
+    const text =  "As a versatile developer, I excel in creating seamless digital experiences, with a strong foundation in frontend development where I thrive as a senior contributor. I specialize in crafting intuitive user interfaces, ensuring responsiveness, and delivering exceptional performance. My proficiency extends to backend development, where I bring a junior-level understanding, contributing effectively to building robust and scalable server-side applications. Additionally, I have a keen eye for detail in UI/UX design, leveraging my junior expertise to design user-centered solutions that align with modern aesthetic and usability standards. Combining creativity and technical skill, I aim to bring every project to life with precision and innovation."; // Text to animate
   
     return (
           <div
