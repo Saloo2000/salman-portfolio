@@ -21,7 +21,7 @@ const data = [
   name:"The Wild Oasis (Dashboard)",
   technology:["REACTQUERY", "REACT", "SUPABASE", "STYLED COMPONENT"],
   imagePath:img1,
-  description:"The Wild Oasis Admin Panel manages orders and bookings for luxury mountain cabins, ensuring a seamless experience. ",
+  description:"The Wild Oasis Admin Panel manages orders and bookings for luxury mountain cabins, ensuring a seamless experience.",
   projectURL:"http://"
 },
 {
@@ -57,13 +57,6 @@ const data = [
   technology:["UI UX", "ADOBE XD"],
   imagePath:img4,
   description:"UI/UX for the Pezza web app, focusing on creating an intuitive and visually appealing user experience.",
-  projectURL:"http://"
-},
-{
-  name:"The SunSpa",
-  technology:["UI UX", "ADOBE XD"],
-  imagePath:img7,
-  description:"I created a wireframe for an online booking system, visualizing the layout and user flow for salon owners to streamline appointment scheduling.",
   projectURL:"http://"
 },
 {
@@ -194,17 +187,6 @@ const [imageIndex, setImageIndex] = useState(0)
 
       <div className=' md:flex-[1.5] md:flex-shrink-0 overflow-hidden md:text-start '><h2 className='font-bold md:w-2/8'>The Pezza Web App (UI-UX)</h2></div>
       <div className=' md:flex-1 md:flex-shrink-0 md:overflow-hidden md:text-start '><h2 className='md:w-2/8'>The Online Pizza Order Webb App Best In Town.</h2></div>
-      <div className=' md:flex-1 md:flex-shrink-0 md:overflow-hidden md:text-center '><GoArrowRight className='ml-[45%] rotate-90 md:rotate-0 md:ml-[50%]' size="26px"/></div>
-      <div className=' md:flex-1 md:flex-shrink-0 md:overflow-hidden md:text-end '><h2 target="_blank" >Visit Now</h2></div>
-
-      </a>
-      </div>
-
-      <div onMouseMove={handleMouse} onMouseLeave={handleImgLeave} onMouseEnter={handleImgEnter} id='7'  className="row w-full text-center border-t-[1px] py-[10px]">
-      <a href='https://drive.google.com/file/d/1QpSFuBihj7scRQwDJuYEElpgpQ5f16Qb/view?usp=drive_link' target="_blank"  className='flex flex-col md:flex-row gap-4 justify-between md:px-[2rem] md:py-[15px] hover:bg-zinc-800'>
-
-      <div className=' md:flex-[1.5] md:flex-shrink-0 overflow-hidden md:text-start '><h2 className='font-bold md:w-2/8'>SunSpa (Wireframes)</h2></div>
-      <div className=' md:flex-1 md:flex-shrink-0 md:overflow-hidden md:text-start '><h2 className='md:w-2/8'>The Online Booking System Wireframes (Dashboard Screens)</h2></div>
       <div className=' md:flex-1 md:flex-shrink-0 md:overflow-hidden md:text-center '><GoArrowRight className='ml-[45%] rotate-90 md:rotate-0 md:ml-[50%]' size="26px"/></div>
       <div className=' md:flex-1 md:flex-shrink-0 md:overflow-hidden md:text-end '><h2 target="_blank" >Visit Now</h2></div>
 
