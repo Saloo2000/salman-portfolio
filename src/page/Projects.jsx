@@ -88,7 +88,6 @@ const [imageIndex, setImageIndex] = useState(0)
     if (e.target.id === "5") setImageIndex(4)
     if (e.target.id === "6") setImageIndex(5)
     if (e.target.id === "7") setImageIndex(6)
-    if (e.target.id === "8") setImageIndex(7)
     
     const {clientX:x, clientY:y} = e
     
@@ -193,7 +192,9 @@ const [imageIndex, setImageIndex] = useState(0)
       </a>
       </div>
 
-      <div onMouseMove={handleMouse} onMouseLeave={handleImgLeave} onMouseEnter={handleImgEnter} id='8'  className="row w-full text-center border-t-[1px] py-[10px]">
+
+
+      <div onMouseMove={handleMouse} onMouseLeave={handleImgLeave} onMouseEnter={handleImgEnter} id='7'  className="row w-full text-center border-t-[1px] py-[10px]">
       <a href='https://xd.adobe.com/view/91d2afb7-1cbd-4bc8-aeff-a7799a505a5a-c481/' target="_blank"  className='flex flex-col md:flex-row gap-4 justify-between md:px-[2rem] md:py-[15px] hover:bg-zinc-800'>
 
       <div className=' md:flex-[1.5] md:flex-shrink-0 overflow-hidden md:text-start '><h2 className='font-bold md:w-2/8'>Galaxy Stock</h2></div>
